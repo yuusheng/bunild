@@ -1,13 +1,13 @@
 {
-  "name": "bun-build",
-  "module": "index.ts",
+  "name": "bunild-monorepo",
   "type": "module",
+  "private": true,
   "workspaces": [
     "packages/*",
     "playground"
   ],
   "scripts": {
-    "dev": "npm -C @bun-build/core run dev"
+    "dev": "npm -C @bunild/playground run dev"
   },
   "devDependencies": {
     "@types/bun": "latest"
