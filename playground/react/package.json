@@ -1,5 +1,5 @@
 {
-  "name": "@bunild/playground",
+  "name": "@bunild/playground-react",
   "scripts": {
     "dev": "bunild"
   },

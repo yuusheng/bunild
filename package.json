@@ -4,10 +4,10 @@
   "private": true,
   "workspaces": [
     "packages/*",
-    "playground"
+    "playground/*"
   ],
   "scripts": {
-    "dev": "npm -C @bunild/playground run dev"
+    "dev": "npm -C ./playground/react run dev"
   },
   "devDependencies": {
     "@types/bun": "latest"

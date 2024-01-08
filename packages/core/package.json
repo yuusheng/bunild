@@ -7,7 +7,7 @@
     "bunild": "index.ts"
   },
   "scripts": {
-    "dev": "bun index.ts --watch"
+    "dev": "bun --watch index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
