@@ -1,6 +1,7 @@
 {
   "name": "bunild-monorepo",
   "type": "module",
+  "author": "yuusheng <hi@yuusheng.im>",
   "private": true,
   "workspaces": [
     "packages/*",
@@ -9,13 +10,13 @@
   "scripts": {
     "dev": "npm -C ./playground/react run dev"
   },
+  "dependencies": {
+    "get-port": "^7.0.0"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "get-port": "^7.0.0"
   }
 }

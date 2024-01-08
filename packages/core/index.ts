@@ -2,7 +2,7 @@
 
 import getPort, { portNumbers } from 'get-port'
 
-export async function init() {
+export async function main() {
   const port = await getPort({ port: portNumbers(5000, 6000) })
 
   const base = process.cwd()
@@ -32,4 +32,4 @@ export async function init() {
   console.log(`Listening on http://localhost:${server.port} ...`)
 }
 
-init()
+main()
