@@ -1,10 +1,10 @@
 {
-  "name": "@bun-build/playground",
+  "name": "@bunild/playground",
   "scripts": {
     "dev": "bunild"
   },
   "dependencies": {
-    "core": "workspace:*"
+    "@bunild/core": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.2.47",

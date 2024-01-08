@@ -1,5 +1,5 @@
 {
-  "name": "core",
+  "name": "@bunild/core",
   "module": "index.ts",
   "type": "module",
   "version": "0.0.1",
