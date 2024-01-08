@@ -1,0 +1,15 @@
+{
+  "name": "@bun-build/playground",
+  "scripts": {
+    "dev": "bunild"
+  },
+  "dependencies": {
+    "core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
